@@ -57,7 +57,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="21" />
+    <option name="x" value="1069" />
+    <option name="y" value="23" />
     <option name="width" value="862" />
     <option name="height" value="1050" />
   </component>
@@ -125,7 +126,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="21" y="0" width="862" height="1050" extended-state="0" />
+    <frame x="1069" y="23" width="862" height="1050" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
