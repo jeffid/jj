@@ -387,7 +387,21 @@ body {
     width: 100vw;
     min-height: 100vh;
     margin: 0;
+    background-color: #E8F3E2;
 }
+.container {
+    /*display: inline-block;*/
+    overflow: hidden;
+    width: 100%;
+    max-height: 100%;
+}
+/*
+svg {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+*/
 /* 字母悬浮显现 */
 #bunch_of_balloons g:hover > path:nth-child(2) {
     fill: white;
