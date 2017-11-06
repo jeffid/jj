@@ -1489,10 +1489,11 @@
 </g>
 </svg>
 </div>
-
-
-
-
-<script></script>
+<script>
+    if ("ActiveXObject" in window) {
+        alert("本页面在IE下显示异常，请更换其它浏览器！");
+        console.log("本页面在IE下显示异常，请更换其它浏览器！\n珍惜生命，远离IE！！");
+    }
+</script>
 </body>
 </html>
