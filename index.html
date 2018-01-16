@@ -1645,12 +1645,13 @@
 </svg>
   <!-- Thanks to contributor Lina -->
 	<!-------------------------------------------->
-	<audio id="bgm"  loop preload="none">
+	<audio id="bgm"  loop preload="none" >
 		Your browser does not support the <code>audio</code> element.
 		<!--<source src="audio/MerryGoRoundOfLife.mp3" type="audio/mp3">-->
-		<source src="audio/AlwaysWithMe.mp3" type="audio/mp3">
+		<source src="audio/AlwaysWithMe.mp3" type="audio/mp3" >
 	</audio>
 </div>
+
 <script>
 	document.addEventListener('DOMContentLoaded',action);
 	function action()　{
@@ -1664,6 +1665,7 @@
 		var _bgm=document.querySelector('#bgm'),
 				_carousel=document.querySelector('#carousel-2');
 
+		_bgm.volume=.3;
 		_carousel.addEventListener('click',function(e) {
 			if (_bgm.paused) {
 				_bgm.play();
