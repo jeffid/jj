@@ -11,6 +11,7 @@
 		var _bgm=document.querySelector('#bgm'),
 				_carousel=document.querySelector('#carousel-2');
 
+		_bgm.volume=.3;
 		_carousel.addEventListener('click',function(e) {
 			if (_bgm.paused) {
 				_bgm.play();
