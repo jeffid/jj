@@ -312,8 +312,8 @@ svg {
 */
 /* Ferris wheel */
 #needles {
-  -webkit-animation: rotate 8s linear infinite;
-  animation: rotate 8s linear infinite;
+  -webkit-animation: rotate 16s linear infinite;
+  animation: rotate 16s linear infinite;
   -webkit-transform-origin: center;
   -ms-transform-origin: center;
   transform-origin: center;
@@ -327,8 +327,8 @@ svg {
     -webkit-transform: rotate(-180deg);
     transform: rotate(-180deg); } }
 #arms {
-  -webkit-animation: rotate-out 8s linear infinite;
-  animation: rotate-out 8s linear infinite;
+  -webkit-animation: rotate-out 16s linear infinite;
+  animation: rotate-out 16s linear infinite;
   -webkit-transform-origin: center;
   -ms-transform-origin: center;
   transform-origin: center;
@@ -342,8 +342,8 @@ svg {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg); } }
 #cabins {
-  -webkit-animation: cabin-transit 8s linear infinite;
-  animation: cabin-transit 8s linear infinite;
+  -webkit-animation: cabin-transit 16s linear infinite;
+  animation: cabin-transit 16s linear infinite;
   -webkit-transform-origin: center;
   -ms-transform-origin: center;
   transform-origin: center;
@@ -357,8 +357,8 @@ svg {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg); } }
 #cabins > * {
-  -webkit-animation: cabin-transform 8s linear infinite;
-  animation: cabin-transform 8s linear infinite;
+  -webkit-animation: cabin-transform 16s linear infinite;
+  animation: cabin-transform 16s linear infinite;
   -webkit-transform-origin: center;
   -ms-transform-origin: center;
   transform-origin: center;
@@ -374,8 +374,7 @@ svg {
 #balloon-1,
 #balloon-2,
 #balloon,
-#bunch_of_balloons1,
-#bunch_of_balloons {
+[id*="balloons-"] {
   -webkit-animation: balloon-anim 5s linear infinite;
   animation: balloon-anim 5s linear infinite;
   -webkit-transform-origin: center;
