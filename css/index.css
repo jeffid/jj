@@ -123,130 +123,162 @@
   fill: #E0BA9D; }
 
 .st36 {
-  fill: #0C1410; }
-
-.st37 {
-  fill: #231815; }
-
-.st38 {
   fill: #261F1B; }
 
+.st37 {
+  fill: #231F20; }
+
+.st38 {
+  fill: #E2E3E4; }
+
 .st39 {
-  fill: #B29EA7; }
+  fill: #FFFFFF; }
 
 .st40 {
-  fill: #C6C49E; }
+  fill: #E3E3DF; }
 
 .st41 {
+  fill: #CE934A; }
+
+.st42 {
+  fill: #906830; }
+
+.st43 {
+  fill: #805B28; }
+
+.st44 {
+  fill: #875520; }
+
+.st45 {
+  fill: #452A0A; }
+
+.st46 {
+  fill: #2C2C2D; }
+
+.st47 {
+  fill: #1F1F20; }
+
+.st48 {
+  fill: #B29EA7; }
+
+.st49 {
+  fill: #FFB1A5; }
+
+.st50 {
+  fill: #FBFBFB; }
+
+.st51 {
+  fill: #EBEBED; }
+
+.st52 {
+  fill: #353A42; }
+
+.st53 {
+  opacity: 0.3;
+  fill: #FFFFFF; }
+
+.st54 {
+  fill: #C6C49E; }
+
+.st55 {
   fill: none;
   stroke: #F69EAC;
   stroke-miterlimit: 10; }
 
-.st42 {
+.st56 {
   fill: #F16A83; }
 
-.st43 {
+.st57 {
   fill: none;
   stroke: #C38F98;
   stroke-miterlimit: 10; }
 
-.st44 {
+.st58 {
   fill: #C5C072; }
 
-.st45 {
+.st59 {
   fill: #FDF164; }
 
-.st46 {
+.st60 {
   fill: #DBEDD1; }
 
-.st47 {
+.st61 {
   fill: #B2BEAF; }
 
-.st48 {
+.st62 {
   fill: #FEEB19; }
 
-.st49 {
+.st63 {
   fill: #9998C8; }
 
-.st50 {
+.st64 {
   fill: #FEF5B1; }
 
-.st51 {
+.st65 {
   fill: #FAC1C4; }
 
-.st52 {
+.st66 {
   fill: none;
   stroke: #8D6876;
   stroke-miterlimit: 10; }
 
-.st53 {
+.st67 {
   fill: #BFA264; }
 
-.st54 {
+.st68 {
   fill: none;
   stroke: #806871;
   stroke-miterlimit: 10; }
 
-.st55 {
+.st69 {
   fill: #CE9D2B; }
 
-.st56 {
+.st70 {
   fill: #C06975; }
 
-.st57 {
+.st71 {
   fill: #E0EFD3; }
 
-.st58 {
+.st72 {
   fill: #B9E1D2; }
 
-.st59 {
-  fill: #FFFFFF; }
-
-.st60 {
-  fill: none;
-  stroke: #231F20;
-  stroke-miterlimit: 10; }
-
-.st61 {
-  fill: #FFEFB8; }
-
-.st62 {
+.st73 {
   fill: #DFEDC9; }
 
-.st63 {
-  fill: #F6D695; }
-
-.st64 {
-  fill: #FCD6D9; }
-
-.st65 {
+.st74 {
   fill: #A48691; }
 
-.st66 {
-  fill: #EDDEE3; }
-
-.st67 {
-  fill: #FCF8CA; }
-
-.st68 {
-  fill: #B8B2D8; }
-
-.st69 {
+.st75 {
   fill: #EFF7EA; }
 
-.st70 {
+.st76 {
+  fill: #FCD6D9; }
+
+.st77 {
+  fill: #F6D695; }
+
+.st78 {
+  fill: #FCF8CA; }
+
+.st79 {
+  fill: #EDDEE3; }
+
+.st80 {
+  fill: #B8B2D8; }
+
+.st81 {
   fill: #FEF7B7; }
 
-.st71 {
+.st82 {
   fill: #FF6699; }
 
-.st72 {
+.st83 {
   enable-background: new; }
 
-.st73 {
+.st84 {
   fill: #FFCCCC; }
 
-.st74 {
+.st85 {
   opacity: 0.89;
   fill: none;
   stroke: #231815;
@@ -255,7 +287,7 @@
   stroke-miterlimit: 10;
   enable-background: new; }
 
-.st75 {
+.st86 {
   fill: #EBC570; }
 
 /*****************************************************************/
@@ -278,13 +310,10 @@ svg {
     overflow: hidden;
 }
 */
-/* hover letters  */
-#bunch_of_balloons g:hover > path:nth-child(2) {
-  fill: white; }
-
+/* Ferris wheel */
 #needles {
-  -webkit-animation: rotate 5s linear infinite;
-  animation: rotate 5s linear infinite;
+  -webkit-animation: rotate 8s linear infinite;
+  animation: rotate 8s linear infinite;
   -webkit-transform-origin: center;
   -ms-transform-origin: center;
   transform-origin: center;
@@ -298,8 +327,8 @@ svg {
     -webkit-transform: rotate(-180deg);
     transform: rotate(-180deg); } }
 #arms {
-  -webkit-animation: rotate-out 5s linear infinite;
-  animation: rotate-out 5s linear infinite;
+  -webkit-animation: rotate-out 8s linear infinite;
+  animation: rotate-out 8s linear infinite;
   -webkit-transform-origin: center;
   -ms-transform-origin: center;
   transform-origin: center;
@@ -313,8 +342,8 @@ svg {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg); } }
 #cabins {
-  -webkit-animation: cabin-transit 5s linear infinite;
-  animation: cabin-transit 5s linear infinite;
+  -webkit-animation: cabin-transit 8s linear infinite;
+  animation: cabin-transit 8s linear infinite;
   -webkit-transform-origin: center;
   -ms-transform-origin: center;
   transform-origin: center;
@@ -328,8 +357,8 @@ svg {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg); } }
 #cabins > * {
-  -webkit-animation: cabin-transform 5s linear infinite;
-  animation: cabin-transform 5s linear infinite;
+  -webkit-animation: cabin-transform 8s linear infinite;
+  animation: cabin-transform 8s linear infinite;
   -webkit-transform-origin: center;
   -ms-transform-origin: center;
   transform-origin: center;
@@ -417,6 +446,11 @@ svg {
     opacity: 0;
     -webkit-transform: translateX(5%);
     transform: translateX(5%); } }
+/************************************/
+/* hover letters  */
+[id*="balloons"] > g:hover > path:nth-child(2) {
+  fill: white; }
+
 /***********************************/
 /* carousel */
 #carousel-2 {
@@ -482,11 +516,52 @@ svg {
 
 /* /carousel */
 /* balloon */
-.balloons.z-active {
-  animation: flurr 4s ease-in forwards !important; }
+.balloons-2.z-active {
+  animation: flurr 7s ease-in forwards !important; }
 
 @keyframes flurr {
   to {
     transform: translateY(-150vh); } }
+.balloons > [id^="bb"] {
+  transition: 8s ease-in; }
+
+.balloons.z-active > #bb-1 {
+  transform: translate(30vw, -150vh); }
+
+.balloons.z-active > #bb-2 {
+  transform: translate(24vw, -150vh); }
+
+.balloons.z-active > #bb-3 {
+  transform: translate(18vw, -150vh); }
+
+.balloons.z-active > #bb-4 {
+  transform: translate(12vw, -150vh); }
+
+.balloons.z-active > #bb-5 {
+  transform: translate(0vw, -150vh); }
+
+.balloons.z-active > #bb-6 {
+  transform: translate(12vw, -150vh); }
+
+.balloons.z-active > #bb-7 {
+  transform: translate(24vw, -150vh); }
+
+.balloons.z-active > #bb-8 {
+  transform: translate(18vw, -150vh); }
+
+.balloons.z-active > #bb-9 {
+  transform: translate(-12vw, -150vh); }
+
+.balloons.z-active > #bb-10 {
+  transform: translate(-24vw, -150vh); }
+
+.balloons.z-active > #bb-11 {
+  transform: translate(-30vw, -150vh); }
+
+.balloons.z-active > #bb-12 {
+  transform: translate(-36vw, -150vh); }
+
+.balloons.z-active > #bb-13 {
+  transform: translate(0vw, -150vh); }
 
 /*# sourceMappingURL=index.css.map */
