@@ -11,25 +11,49 @@ function action() {
 
     /****** carousel ******/
     var _bgm = document.querySelector('#bgm'),
-        _carousel = document.querySelector('#carousel');
+        _bgm2 = document.querySelector('#bgm2'),
+        _carousel = document.querySelector('#carousel'),
+        slogan='Bless you';
+    // 默认音量
+    _bgm.volume = _bgm2.volume = .3;
 
-    _bgm.volume = .3;
+    // 单击插入音乐1
     _carousel.addEventListener('click', function (e) {
         if (_bgm.paused) {
             _bgm.play();
+            document.title='AlwaysWithMe';
             _carousel.classList.add('z-active');
         }
         else {
             _bgm.pause();
+            document.title=slogan;
             _carousel.classList.remove('z-active');
         }
 //			console.log(_bgm.paused);
         e.stopPropagation();
     });
 
+    // 双击插入音乐2
+    //_carousel.addEventListener('dblclick', function (e) {
+    //    if (_bgm2.paused) {
+    //        _bgm2.play();
+    //        _carousel.classList.add('z-active');
+    //    }
+    //    else {
+    //        _bgm2.pause();
+    //        _carousel.classList.remove('z-active');
+    //    }
+    //    e.stopPropagation();
+    //});
+
     document.addEventListener('click', function (e) {
         if (!_bgm.paused) {
             _bgm.pause();
+            document.title=slogan;
+            _carousel.classList.remove('z-active');
+        }
+        if (!_bgm2.paused) {
+            _bgm2.pause();
             _carousel.classList.remove('z-active');
         }
     });
