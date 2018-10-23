@@ -448,9 +448,10 @@ svg {
     transform: translateX(5%); } }
 /************************************/
 /* hover letters  */
-[id*="balloons"] > g:hover > path:nth-child(2) {
-  fill: white; }
-
+/* todo No longer displaying associated fonts*/
+/*[id*="balloons"] > g:hover > path:nth-child(2) {
+  fill: white;
+}*/
 /***********************************/
 /* carousel */
 #carousel-2 {
